@@ -1,4 +1,5 @@
 import "./App.css";
+import profile from "./assets/profile.gif";
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
       </header>
 
       <main>
+        <img className="Profile" src={profile} />
+
         <h1>
-          Minha jornada Eletromecânica
+          Minha jornada: Eletromecânica
           <br />
           IFPB - Itabaiana.
         </h1>
@@ -31,6 +34,11 @@ function App() {
           transformar ideias em realidade.
         </p>
       </main>
+      <footer>
+        <h6>
+          Developed by: <u>Guilherme Soares Marciel</u>
+        </h6>
+      </footer>
     </>
   );
 }
