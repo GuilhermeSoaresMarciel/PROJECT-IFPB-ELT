@@ -10,30 +10,32 @@ function App() {
         <h1>Portfólio de Eletromecânica</h1>
 
         <h3>Campos - Itabaiana</h3>
+
+        <nav>
+          <a href="#Inicio">Início</a>
+
+          <a href="#Horario">Horário</a>
+        </nav>
       </header>
 
       <main>
-        <img className="Profile" src={profile} />
+        <div id="Inicio">
+          <img className="Profile" src={profile} />
 
-        <h1>
-          Minha jornada: Eletromecânica
-          <br />
-          IFPB - Itabaiana.
-        </h1>
+          <h1>
+            Minha jornada: Eletromecânica
+            <br />
+            IFPB - Itabaiana.
+          </h1>
 
-        <p>
-          Estudante do curso técnico em
-          <br />
-          Eletromecânica pelo IFPB – Campus
-          <br />
-          Itabaiana, apaixonado por tecnologia
-          <br />e por inovações que conectam
-          <br />
-          eletricidade e mecânica para
-          <br />
-          transformar ideias em realidade.
-        </p>
+          <p>
+            Estudante do curso técnico em Eletromecânica pelo IFPB – Campus
+            Itabaiana, apaixonado por tecnologia e por inovações que conectam
+            eletricidade e mecânica para transformar ideias em realidade.
+          </p>
+        </div>
       </main>
+
       <footer>
         <h6>
           Developed by: <u>Guilherme Soares Marciel</u>
