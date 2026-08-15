@@ -1,0 +1,49 @@
+:root {
+  --bg-v1: rgb(20, 20, 20);
+  --bg-v2: rgb(40, 40, 40);
+
+  --bg: linear-gradient(135deg, var(--bg-v1), var(--bg-v2), var(--bg-v1));
+
+  --color: silver;
+  --color-on: navy;
+
+  --radius: 10px;
+
+  --border: 2px solid var(--color);
+
+  --spacing: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+body {
+  min-height: 100dvh;
+
+  padding: var(--spacing);
+
+  background: var(--bg);
+
+  color: var(--color);
+}
+
+::-webkit-scrollbar {
+  width: var(--spacing);
+  height: var(--spacing);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg-v1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-v2);
+  border-radius: var(--radius);
+}
