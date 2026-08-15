@@ -1,13 +1,13 @@
 #root {
   width: 100%;
-  height: 100dvh;
+  min-height: 100dvh;
 
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-color: var(--color-on);
+  background-color: var(--bg-v1);
 
   padding: var(--spacing);
 
@@ -28,4 +28,6 @@ main {
   text-align: center;
 
   padding: var(--spacing);
+
+  gap: var(--spacing);
 }
