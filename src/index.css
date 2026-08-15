@@ -1,11 +1,10 @@
 :root {
-  --bg-v1: rgb(20, 20, 20);
-  --bg-v2: rgb(40, 40, 40);
+  --bg-v1: rgb(10, 10, 10);
+  --bg-v2: rgb(50, 25, 25);
 
   --bg: linear-gradient(135deg, var(--bg-v1), var(--bg-v2), var(--bg-v1));
 
   --color: silver;
-  --color-on: navy;
 
   --radius: 10px;
 
@@ -22,6 +21,8 @@
 
   font-family: sans-serif;
   font-weight: bold;
+
+  color: var(--color);
 }
 
 body {
@@ -30,8 +31,6 @@ body {
   padding: var(--spacing);
 
   background: var(--bg);
-
-  color: var(--color);
 }
 
 ::-webkit-scrollbar {
