@@ -10,12 +10,6 @@ function App() {
         <h1>Portfólio de Eletromecânica</h1>
 
         <h3>Campos - Itabaiana</h3>
-
-        <nav>
-          <a href="#Inicio">Início</a>
-
-          <a href="#Horario">Horário</a>
-        </nav>
       </header>
 
       <main>
