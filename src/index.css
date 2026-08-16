@@ -1,55 +1,30 @@
-:root {
-  --bg-v1: rgb(30, 30, 30);
-  --bg-v2: rgb(60, 60, 60);
+@import "tailwindcss";
 
-  --bg: linear-gradient(135deg, var(--bg-v1), var(--bg-v2), var(--bg-v1));
+:root {
+  --bg-v1: rgb(20, 20, 20);
+  --bg-v2: rgb(40, 40, 40);
 
   --color: silver;
-  --color-on: blue;
-
-  --radius: 10px;
-
-  --border: 2.5px solid var(--color);
-
-  --transition: all 0.5s ease;
-
-  --spacing: 5px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-
-  box-sizing: border-box;
-
   font-family: sans-serif;
-  font-weight: bold;
-
-  color: var(--color);
-}
-
-html {
-  font-size: 100%;
 }
 
 body {
   min-height: 100dvh;
 
-  padding: var(--spacing);
-
-  background: var(--bg);
-}
-
-::-webkit-scrollbar {
-  width: var(--spacing);
-  height: var(--spacing);
-}
-
-::-webkit-scrollbar-track {
   background-color: var(--bg-v1);
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--bg-v2);
-  border-radius: var(--radius);
+#root {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.glass-card {
+  background-color: var(--bg-v2);
 }
