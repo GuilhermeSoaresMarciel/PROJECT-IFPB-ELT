@@ -17,16 +17,6 @@ header {
   text-align: center;
 }
 
-header > nav {
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  gap: var(--spacing);
-}
-
 main {
   flex: 1;
 
@@ -59,23 +49,10 @@ footer {
 }
 
 .Profile {
-  width: 70%;
+  width: 50%;
 
   border-radius: var(--radius);
   border: var(--border);
 
-  filter: brightness(70%);
-}
-
-a {
-  text-decoration: none;
-  text-transform: uppercase;
-
-  transition: var(--transition);
-}
-
-a:hover {
-  color: var(--color-on);
-
-  text-decoration: underline;
+  filter: brightness(50%);
 }
