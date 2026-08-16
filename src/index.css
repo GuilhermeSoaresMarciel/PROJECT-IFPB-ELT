@@ -1,6 +1,6 @@
 :root {
-  --bg-v1: rgb(10, 10, 10);
-  --bg-v2: rgb(50, 25, 25);
+  --bg-v1: rgb(30, 30, 30);
+  --bg-v2: rgb(60, 60, 60);
 
   --bg: linear-gradient(135deg, var(--bg-v1), var(--bg-v2), var(--bg-v1));
 
